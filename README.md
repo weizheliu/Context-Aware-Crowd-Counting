@@ -7,7 +7,7 @@ State-of-the-art methods for counting people in crowded scenes rely on deep netw
 
 In this paper, we introduce an end-to-end trainable deep architecture that combines features obtained using multiple receptive field sizes and learns the importance of each such feature at each image location. In other words, our approach adaptively encodes the scale of the contextual information required to accurately predict crowd density. This yields an algorithm that outperforms state-of-the-art crowd counting methods, especially when perspective effects are strong.
 
-![](./images/model.pdf)
+![](./images/model.png)
 Figure 1: Context-Aware Network. (Top) RGB images are fed to a font-end network that comprises the first 10 layers of the VGG-16
 network. The resulting local features are grouped in blocks of different sizes by average pooling followed by a 1×1 convolutional layer.
 They are then up-sampled back to the original feature size to form the contrast features. Contrast features are further used to learn the
