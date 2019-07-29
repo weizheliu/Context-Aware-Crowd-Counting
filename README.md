@@ -1,4 +1,4 @@
-#Context-Aware Crowd Counting#
+#Context-Aware Crowd Counting
 
 This repository is a PyTorch implementation for the paper **Context-Aware Crowd Counting**. Weizhe Liu, Mathieu Salzmann, Pascal Fua. CVPR. 2019. If you use this code in your research, please cite
 [the paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Context-Aware_Crowd_Counting_CVPR_2019_paper.pdf).
@@ -21,12 +21,12 @@ row: Image from Part A. Second row: Image from Part B. Our
 model adjusts to rapid scale changes and delivers density maps
 that are close to the ground truth.
 
-##Installation##
+##Installation
 PyTorch 0.4
 
 Python 2.7
 
-##Dataset##
+##Dataset
 
 &emsp;1. Download ShanghaiTech Part B Dataset from
 Dropbox: [link](https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0) or Baidu Disk: [link](http://pan.baidu.com/s/1nuAYslz).  
@@ -35,7 +35,7 @@ Dropbox: [link](https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0)
 
 &emsp;3. Use create_json.py to generate the json file which contains the path to the images.
 
-##Training##
+##Training
 In command line:
 
 ```
@@ -45,7 +45,7 @@ python train.py train.json val.json
 
 The json files here are generated from previous step (Dataset. 3.)
 
-##Tesing##
+##Tesing
 &emsp;1. Modify the "test.py", make sure the path is correct.
 
 &emsp;2. In command line:
@@ -55,7 +55,7 @@ python test.py
 
 ``` 
 
-##Notes##
+##Notes
 
 &emsp;1. This is the implementation for ShanghaiTech part B, the pretrained model is in [GoogleDrive](https://drive.google.com/file/d/1meuY_nfcABvsPFG1rXZEpAxcjnk0L9M1/view?usp=sharing).
 
@@ -64,7 +64,7 @@ python test.py
 
  &emsp;3. For some dataset which training images have different size, we set batch size to 1, like ShanghaiTech part A. For others, you could set your batch size according to you GPU memory, but the batch size may affect your model accuracy during training.
  
-##Citing##
+##Citing
 
 ``` 
 
@@ -101,6 +101,6 @@ year = {2019}
 
 ``` 
 
-##Contact##
+##Contact
 
 For any questions regard this paper/code, please direct contact [Weizhe Liu](https://sites.google.com/view/weizheliu)
