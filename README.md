@@ -56,7 +56,7 @@ python test.py
 ``` 
 
 ## Venice Dataset
-The dataset is in [GoogleDrive](https://drive.google.com/file/d/15PUf7C3majy-BbWJSSHaXUlot0SUh3mJ/view)
+The dataset is in [GoogleDrive](https://drive.google.com/file/d/15PUf7C3majy-BbWJSSHaXUlot0SUh3mJ/view).
 
 ## Notes
 
@@ -106,5 +106,5 @@ year = {2019}
 
 ## Contact
 
-For any questions regard this paper/code, please direct contact [Weizhe Liu](mailto:weizhe.liu@epfl.ch)
+For any questions regard this paper/code, please directly contact [Weizhe Liu](mailto:weizhe.liu@epfl.ch).
 
