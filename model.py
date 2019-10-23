@@ -2,7 +2,6 @@ import torch.nn as nn
 import torch
 from torch.nn import functional as F
 from torchvision import models
-from utils import save_net,load_net
 
 class ContextualModule(nn.Module):
     def __init__(self, features, out_features=512, sizes=(1, 2, 3, 6)):
